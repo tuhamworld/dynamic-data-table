@@ -1,0 +1,1 @@
+const key = 'https://jsonplaceholder.typicode.com/users';

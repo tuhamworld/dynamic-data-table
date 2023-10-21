@@ -7,12 +7,35 @@
     <title>Dynamic Data</title>
     <meta property="og:title" content="Dynamic Table Data: Fetching Data from an API" />
     <meta property="og:description" content="Populating Dynamic Data." />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/variables.css">
 </head>
 
 
 
 <body>
+    <div class="intro">
+
+        <h1>Welcome to the Dynamic Data Show</h1>
+        <p>
+            This page allows you to browse details about fictitious characters from the table below. You can also use
+            the search button to search for details.
+        </p>
+    </div>
+
+
+    <form action="" class="search-form">
+        <input type="text" name="search" id="search" placeholder="Search for a User" value="">
+        <input type="submit" value="Search" class="search-btn">
+
+    </form>
+
+
+    <p class="results">
+            
+    </p>
 
 
     <div class="container">
@@ -41,10 +64,12 @@
 
     <footer>
         <p>
-           Style Adapted from <a href="https://tunde-sanusi-beta.netlify.app/programming-table" target="_blank">Programming Languages Data Table</a>
+            Style Adapted from <a href="https://tunde-sanusi-beta.netlify.app/programming-table"
+                target="_blank">Programming Languages Data Table</a>
         </p>
     </footer>
 
+    <script src="./js/api.js"></script>
     <script src="./js/app.js"></script>
 </body>
 
